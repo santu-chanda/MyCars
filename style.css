@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.logo{
+    /* height:7%; */
+    width: 5vw;
+    margin-left: 0.3rem;
+    /* margin-right: 5%; */
+}
+ul{
+    list-style: none;
+}
+/* nav{
+    display: flex;
+} */
+nav div{
+    margin-top: 0.3rem;
+    float: right;
+    font-size: 0.7rem;
+    font-weight: bold;
+    width: 90vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    clear: both;
+    color: white;
+    background-color: black;
+}
+/* nav{
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    width: 100vw;
+} */
+.navbar{
+    text-align: center;
+    padding-top: 0.3rem;
+}
+nav .navbar li{
+   float: right;
+   margin: 0 0.8rem;
+   margin-top: 0.1rem;
+}
+.navImg{
+    float: right;
+    width: 3vw;
+    margin: 0 0.5rem;
+}
+
+.mainImg{
+    background-image: url(./images/car1.png);
+    height: 88vh;
+    background-size:100% 100%;
+    /* background-repeat:; */
+    /* border: 2px solid red; */
+    /* background-color: black; */
+}
+
+.mainImg p{
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section{
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.carsSection{
+    background: black;
+}
+article div{
+    height: 70vh;
+    display: flex;
+}
+
+article img{
+    flex-grow: 1;
+    width: 3%;
+    border: 1px solid black;
+}
+
+.img1{
+    width: 15%;
+}
+.mainSection{
+    background-color: black;
+}
+.mainSection article{
+    margin: 0 4rem;
+    display: flex;
+}
+
+.mainSection article .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #020e00;
+    color: white;
+    /* padding: 0 2rem; */
+}
+.mainSection article .section1 h2{
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.mainSection article .section1 p{
+    /* padding-right: 5rem; */
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contactForm{
+    background-color: #011604;
+}
+.contactForm div{
+    margin: 0 3rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* 
+.contactForm article textarea{
+    float: right;
+} */
+.contactForm div main{
+    margin: 0 1rem;
+}
+.form{
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+textarea{
+    resize: none;
+}
+.contactInfo{
+    text-align: center;
+    color: white;
+    background-color: #090118;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.contactInfo p{
+    padding: 0.5rem 0;
+}
+
+.contactInfo img{
+    width: 2rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #011604;
+    color: #6e6868;
+    padding: 0.2rem 0;
+    font-family: 'Josefin Sans', sans-serif;
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background: black;
+}
+nav div{
+    flex-grow: 1;
+}
+
+nav ul{
+    display: flex;
+}
+#logoId{
+    width: 65%;
+    /* text-align: start; */
+}
+.logo{
+    width: 3rem;
+}
+.logoicon{
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+.thirdDiv{
+    display: flex;
+    /* text-align:right; */
+    /* height: 4rem; */
+    align-items: center;
+}
+.thirdDiv span{
+    margin-left: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    /* margin-bottom: 2rem; */
+    /* border: 2px solid red; */
+}
+/* .secondDiv{
+    display: flex;
+    text-align: right;
+} */
